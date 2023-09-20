@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Bold:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Medium:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --text-sm-semibold: Inter;
+  --body-text-extra-small-body-extra-small-regular: "DM Sans";
+  --font-gilroy-medium: Gilroy-Medium;
+  --font-gilroy-bold: Gilroy-Bold;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --text-sm-semibold-size: 0.88rem;
+  --body-text-extra-small-body-extra-small-regular-size: 0.75rem;
+  --font-size-11xl: 1.88rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-base: 1rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-lg: 1.13rem;
+
+  /* Colors */
+  --primary-600: #7f56d9;
+  --white: #fff;
+  --secondary-dark-grey-500-placeholder-color: #8f9bba;
+  --primary-50: #f9f5ff;
+  --secondary-grey-300: #f4f7fe;
+  --gray-500: #667085;
+  --color-darkslategray-100: #464d50;
+  --gray-700: #344054;
+  --primary-white: #fefefe;
+  --primary-black: #1f2129;
+  --color-gray-100: #101215;
+  --color-gray-200: rgba(31, 33, 41, 0);
+  --color-gray-300: rgba(16, 24, 40, 0);
+  --color-gray-400: rgba(33, 40, 44, 0.5);
+  --color-gray-500: rgba(255, 255, 255, 0.13);
+  --color-gray-600: rgba(255, 255, 255, 0.04);
+  --color-mediumseagreen-100: #44c677;
+  --primary-green: #3fa268;
+  --color-mediumturquoise: #73c2b4;
+  --color-khaki: #fdd26e;
+  --color-peru: #cd7849;
+  --primary-700: #6941c6;
+  --gray-100: #f2f4f7;
+  --gray-6: #f2f2f2;
+
+  /* Gaps */
+  --gap-5xs: 0.5rem;
+  --gap-xs: 0.75rem;
+  --gap-3xs: 0.63rem;
+  --gap-6xs: 0.44rem;
+  --gap-7xs: 0.38rem;
+
+  /* Paddings */
+  --padding-3xs: 0.63rem;
+  --padding-base: 1rem;
+  --padding-5xs: 0.5rem;
+  --padding-xs: 0.75rem;
+  --padding-2xl: 1.31rem;
+  --padding-11xs: 0.13rem;
+  --padding-5xl: 1.5rem;
+  --padding-xl: 1.25rem;
+  --padding-13xl: 2rem;
+  --padding-11xl: 1.88rem;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-181xl: 200px;
+  --br-9xs: 4px;
+  --br-881xl: 900px;
+  --br-7xs: 6px;
+
+  /* Effects */
+  --shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
